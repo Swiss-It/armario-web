@@ -6,7 +6,6 @@ document.getElementById('signup-form').addEventListener('submit', function (e) {
 
     fetch('https://script.google.com/macros/s/AKfycbwxJkF_wATUw5pScHJH2y_nIn7ex7EwLxkC-8-d7Azx7AshS24G4pFoGrzA6-NVJkJt/exec', {
         method: 'POST',
-        mode: 'cors',
         headers: {
             'Content-Type': 'application/json'
         },
