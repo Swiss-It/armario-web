@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Our App</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+        <div class="img-container">
+            <img src="./assets/LOGO_Artboard 6-11.png" alt="Armario">
+        </div>
+        <div class="container">
+            <h1>Sign Up for Our Upcoming Mobile App</h1>
+            <form id="signup-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div id="success-message" style="display:none;">
+                <p>Thank you for signing up! We will keep you updated.</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
