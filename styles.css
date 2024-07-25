@@ -50,6 +50,10 @@ form {
     flex-direction: column;
 }
 
+img {
+    margin-bottom: -90px;
+}
+
 label {
     margin-bottom: 5px;
 }
