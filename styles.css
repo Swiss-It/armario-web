@@ -23,9 +23,22 @@ body {
     color: #6A0B06;
 }
 
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
 main {
     max-width: 600px;
     padding: 2rem;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(30, 180, 255);
 }
 
 h1 {
