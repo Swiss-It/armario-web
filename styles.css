@@ -42,6 +42,19 @@ body {
     overflow: hidden
 }
 
+.demo {
+    background-color: #cccccc;
+    max-width: 500px;
+    height: 5rem;
+    margin: auto;
+    border-radius: 5rem;
+    font-weight: 700;
+    color: #6A0B06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     padding: 2rem;
 }
