@@ -37,7 +37,8 @@ body {
 
 .photo {
     padding: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden
 }
 
